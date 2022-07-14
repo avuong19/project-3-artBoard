@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
         <h1>
-            ART SITE
+            ARTBOARD
         </h1>
         <nav>
            <Link to="/login">LOGIN</Link> 
