@@ -6,19 +6,19 @@ const Home = () => {
     return (<>
     <Header />
         <section>
-    <p>
+    <p className="mt-24">
         ART SHOULD BE A CONVERSATION. LET'S TALK.
     </p>
-    <button className="sign-up">
+    <button className="sign-up ml-11">
       <Link to="/signup"> SIGN UP</Link> 
     </button>
 </section>
-<div class="images">
-    <img class="image1" src={process.env.PUBLIC_URL+"/assets/images/painting3.png" }alt="" />
-    <img class="image2" src={process.env.PUBLIC_URL+"/assets/images/painting4.png"} alt="" />
-    <img class="image3" src={process.env.PUBLIC_URL+"/assets/images/painting6.png" }alt="" />
-    <img class="image4" src={process.env.PUBLIC_URL+"/assets/images/painting1.png"} alt="" />
-    <img class="image5" src={process.env.PUBLIC_URL+"/assets/images/painting2.png"} alt="" />
+<div className="display:flex">
+    {/* <img className="image1" src={process.env.PUBLIC_URL+"/assets/images/painting3.png" }alt="" /> */}
+    {/* <img className="image2" src={process.env.PUBLIC_URL+"/assets/images/painting4.png"} alt="" /> */}
+    <img className="image3" src={process.env.PUBLIC_URL+"/assets/images/painting6.png" }alt="" />
+    <img className="image4 " src={process.env.PUBLIC_URL+"/assets/images/painting1.png"} alt="" />
+    <img className="image5" src={process.env.PUBLIC_URL+"/assets/images/painting2.png"} alt="" />
 </div>
    </> )
 }

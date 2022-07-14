@@ -67,15 +67,16 @@ const Signup = () => {
   return (
     
     <>
+    <Header />
     {/* This is needed for the validation functionality above */}
-    <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
+    <Form noValidate validated={validated} onSubmit={handleFormSubmit} className="container justify-between p-5 items-center space-y-4">
       {/* show alert if server response is bad */}
       <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
         Something went wrong with your signup!
       </Alert>
 
-      <Form.Group className='form'>
-        <Form.Label htmlFor='username'>USERNAME</Form.Label>
+      <Form.Group >
+        <Form.Label htmlFor='username'className='form-title' >USERNAME</Form.Label>
         <Form.Control
           type='text'
           placeholder='Your username'
@@ -83,13 +84,15 @@ const Signup = () => {
           onChange={handleInputChange}
           value={userFormData.username}
           required
+          className='form-input '
         />
-        <Form.Control.Feedback type='invalid'>USERNAME IS REQUIRED</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>*USERNAME IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>
-        <Form.Label htmlFor='EMAIL'>EMAIL</Form.Label>
+        <Form.Label htmlFor='EMAIL' className='form-title'>EMAIL</Form.Label>
         <Form.Control
+        className='form-input'
           type='email'
           placeholder='Your email address'
           name='email'
@@ -97,12 +100,13 @@ const Signup = () => {
           value={userFormData.email}
           required
         />
-        <Form.Control.Feedback type='invalid'>EMAIL IS REQUIRED</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>*EMAIL IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>
-        <Form.Label htmlFor='password'>PASSWORD</Form.Label>
+        <Form.Label htmlFor='password' className='form-title'>PASSWORD</Form.Label>
         <Form.Control
+        className='form-input'
           type='password'
           placeholder='Your password'
           name='password'
@@ -110,13 +114,15 @@ const Signup = () => {
           value={userFormData.password}
           required
         />
-        <Form.Control.Feedback type='invalid'>PASSWORD IS REQUIRED</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>*PASSWORD IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
       <Button
+       className='button'
         disabled={!(userFormData.username && userFormData.email && userFormData.password)}
         type='submit'
-        variant='success'>
-        Submit
+        variant='success'
+       >
+        SUBMIT
       </Button>
     </Form>
   </>

@@ -10,7 +10,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
   position: -webkit-sticky;
   top: 0;
   background-size: cover;
@@ -46,7 +45,6 @@ p {
   width: 355px;
   height: 368px;
   left: 49px;
-  top: 270px;
 
   color: #000000;
 } 
@@ -65,8 +63,7 @@ button {
   padding: 4px 12px;
   width: 176px;
   height: 52px;
-  left: 62px;
-  top: 550px;
+  top: 300px;
 }
 
 .sign-up {
@@ -78,10 +75,8 @@ button:hover {
 }
 
 .image1 {
-  position: absolute;
   width: 374px;
   height: 743px;
-  left: 750px;
   top: 275px;
 }
 
@@ -89,32 +84,32 @@ button:hover {
   position: absolute;
   width: 206px;
   height: 446px;
-  left: 1150px;
-  top: 250px;
+  left: 470px;
+  top: 200px;
 }
 
 .image2 {
   position: absolute;
   width: 412px;
   height: 314px;
-  left: 1150px;
+  left: 450px;
   top: 720px;
 }
 
 .image4 {
-  position: absolute;
   width: 189px;
   height: 446px;
-  left: 1375px;
-  top: 250px;
+  margin-left: 700px;
+  margin-top: 52px;
+  
 }
 
 .image5 {
   position: absolute;
-  width: 193px;
-  height: 772px;
-  left: 1600px;
-  top: 250px;
+  width: 189px;
+  height: 446px;
+  left: 915px;
+  top: 200px;
 }
 
 form h2 {
@@ -136,12 +131,16 @@ label {
   display: block;
   padding: 16px 1px;
   font-size: 16px;
-  width: 100%;
+  width: 60%;
   margin-bottom: 15px; 
   border-radius: 10px;
 
   background: #FFFFFF;
   border-radius: 10px;
+}
+
+.form-title {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
@@ -151,10 +150,9 @@ form {
   width: 40%;
   margin: 3.5%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  position: absolute;
   width: 800px;
   height: 650px;
-  left: 125px;
+
   top: 189px;
 }
 
@@ -167,7 +165,7 @@ form {
   border-radius: 25px;
 }
 
-button, .button {
+button {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -182,6 +180,21 @@ button, .button {
   width: 176px;
   height: 52px;
   display: flex;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+  color: beige;
+  background-color: orangered;
+  border-radius: 15px;
+  border: none;
+  padding: 4px 12px;
+  width: 176px;
+  height: 52px;
 }
 
 button a {
