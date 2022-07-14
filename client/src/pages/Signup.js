@@ -74,8 +74,8 @@ const Signup = () => {
         Something went wrong with your signup!
       </Alert>
 
-      <Form.Group>
-        <Form.Label htmlFor='username'>Username</Form.Label>
+      <Form.Group className='form'>
+        <Form.Label htmlFor='username'>USERNAME</Form.Label>
         <Form.Control
           type='text'
           placeholder='Your username'
@@ -84,11 +84,11 @@ const Signup = () => {
           value={userFormData.username}
           required
         />
-        <Form.Control.Feedback type='invalid'>Username is required!</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>USERNAME IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>
-        <Form.Label htmlFor='email'>Email</Form.Label>
+        <Form.Label htmlFor='EMAIL'>EMAIL</Form.Label>
         <Form.Control
           type='email'
           placeholder='Your email address'
@@ -97,11 +97,11 @@ const Signup = () => {
           value={userFormData.email}
           required
         />
-        <Form.Control.Feedback type='invalid'>Email is required!</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>EMAIL IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
 
       <Form.Group>
-        <Form.Label htmlFor='password'>Password</Form.Label>
+        <Form.Label htmlFor='password'>PASSWORD</Form.Label>
         <Form.Control
           type='password'
           placeholder='Your password'
@@ -110,7 +110,7 @@ const Signup = () => {
           value={userFormData.password}
           required
         />
-        <Form.Control.Feedback type='invalid'>Password is required!</Form.Control.Feedback>
+        <Form.Control.Feedback type='invalid'>PASSWORD IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
       <Button
         disabled={!(userFormData.username && userFormData.email && userFormData.password)}

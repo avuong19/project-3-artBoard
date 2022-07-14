@@ -9,7 +9,7 @@ const Home = () => {
     <p>
         ART SHOULD BE A CONVERSATION. LET'S TALK.
     </p>
-    <button>
+    <button className="sign-up">
       <Link to="/signup"> SIGN UP</Link> 
     </button>
 </section>

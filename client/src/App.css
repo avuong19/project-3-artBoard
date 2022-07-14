@@ -1,3 +1,6 @@
+
+
+
 body {
   background-color: #FBF3EB;
 }
@@ -12,11 +15,12 @@ header {
   top: 0;
   background-size: cover;
   z-index: 9999;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 102px;
+  text-decoration: none;
 }
 
 nav {
@@ -25,6 +29,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  text-decoration: none;
 }
 
 nav:hover {
@@ -33,12 +38,12 @@ nav:hover {
 
 p {
   position: absolute;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  width: 335px;
+  width: 355px;
   height: 368px;
   left: 49px;
   top: 270px;
@@ -62,6 +67,10 @@ button {
   height: 52px;
   left: 62px;
   top: 550px;
+}
+
+.sign-up {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
@@ -119,6 +128,10 @@ label {
   font-size: 32px;
 }
 
+.login {
+  text-decoration: none;
+}
+
 .form-input {
   display: block;
   padding: 16px 1px;
@@ -154,9 +167,9 @@ form {
   border-radius: 25px;
 }
 
-button {
+button, .button {
   position: relative;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 31px;
@@ -169,7 +182,6 @@ button {
   width: 176px;
   height: 52px;
   display: flex;
-  margin-top: 50px;
 }
 
 button a {
@@ -179,6 +191,52 @@ button a {
 
 button:hover {
   opacity: 50%;
+}
+
+form h2 {
+  font-size: 48px;
+}
+
+label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.form-input {
+  display: block;
+  padding: 16px 1px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px; 
+  border-radius: 10px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+form {
+  background: #E2D8CC;
+  border-radius: 7px;
+  padding: 20px;
+  width: 40%;
+  margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 800px;
+  height: 650px;
+  left: 125px;
+  top: 189px;
+}
+
+.image1 {
+  position: absolute;
+  width: 850px;
+  height: 700px;
+  left: 1300px;
+  top: 275px;
+  border-radius: 25px;
 }
 
 

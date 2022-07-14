@@ -5,6 +5,7 @@ import { Form, Button, Alert } from 'react-bootstrap';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
+import Header from '../components/Header';
 
 const Login = () => {
   const [userFormData, setUserFormData] = useState({ email: '', password: '' });
@@ -57,6 +58,7 @@ const Login = () => {
 
   return (
     <>
+    <Header />
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
           Something went wrong with your login credentials!
