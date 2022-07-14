@@ -69,7 +69,7 @@ const Signup = () => {
     <>
     <Header />
     {/* This is needed for the validation functionality above */}
-    <Form noValidate validated={validated} onSubmit={handleFormSubmit} className="container justify-between p-5 items-center space-y-4">
+    <Form noValidate validated={validated} onSubmit={handleFormSubmit} className="">
       {/* show alert if server response is bad */}
       <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
         Something went wrong with your signup!
@@ -117,11 +117,10 @@ const Signup = () => {
         <Form.Control.Feedback type='invalid'>*PASSWORD IS REQUIRED</Form.Control.Feedback>
       </Form.Group>
       <Button
-       className='button'
+       className='button mt-48 '
         disabled={!(userFormData.username && userFormData.email && userFormData.password)}
         type='submit'
-        variant='success'
-       >
+        variant='success'>
         SUBMIT
       </Button>
     </Form>

@@ -100,7 +100,7 @@ button:hover {
   width: 189px;
   height: 446px;
   margin-left: 700px;
-  margin-top: 52px;
+  margin-top: 105px;
   
 }
 
@@ -150,10 +150,8 @@ form {
   width: 40%;
   margin: 3.5%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 800px;
-  height: 650px;
 
-  top: 189px;
+
 }
 
 .image1 {
@@ -166,7 +164,6 @@ form {
 }
 
 button {
-  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
