@@ -181,7 +181,6 @@ button {
 
 .button {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 31px;
   line-height: 38px;
@@ -235,7 +234,7 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 800px;
-  height: 650px;
+  height: 550px;
   left: 125px;
   top: 189px;
 }
