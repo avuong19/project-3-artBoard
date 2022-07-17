@@ -16,7 +16,7 @@ const Dashboard = () => {
         <Header />
         <Link to="/explore"> EXPLORE</Link> 
         <a href="/" onClick={logout}>
-                LOGOUT
+                LOGOUT 
               </a>
 
         {/* display for api images that have been commented on that will show up on feed */}
