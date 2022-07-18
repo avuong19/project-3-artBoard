@@ -19,7 +19,11 @@
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
  ## Screenshots
+![Screen Shot 2022-07-17 at 5 12 48 PM](https://user-images.githubusercontent.com/96094719/179436823-b5c61453-a56a-4d2c-a4ed-eadd79c7a967.png)
+![Screen Shot 2022-07-13 at 8 04 11 PM](https://user-images.githubusercontent.com/96094719/179436828-29c37c13-55b2-4ebd-ad04-a909060b3d83.png)
+![Screen Shot 2022-07-17 at 9 27 52 PM](https://user-images.githubusercontent.com/96094719/179436937-e12a9209-2372-4d6c-83d8-e9db71e67107.png)
 
  
  ## Questions
   - Previous repository (to view commit history and previous work from Project Week 1): https://github.com/laynewegenast/project-3-group-7 
+  - Link to Heroku: https://gentle-scrubland-59381.herokuapp.com/ 
