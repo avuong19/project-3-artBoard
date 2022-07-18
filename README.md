@@ -3,7 +3,6 @@
  ## Table of Contents
  - [Description](#description)
  - [Installation](#installation)
- - [Usage](#usage)
  - [License](#license)
  - [Screenshots](#screenshots)
  - [Questions](#questions)
@@ -16,13 +15,11 @@
   ## Installation
  We are utilizing Heroku for the sites depolyment. To locally run the site the user must run npm i to install all relevant dependencies and packages.
 
- ## Usage
-
-
  ## License
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
  ## Screenshots
+
  
  ## Questions
   - Previous repository (to view commit history and previous work from Project Week 1): https://github.com/laynewegenast/project-3-group-7 
