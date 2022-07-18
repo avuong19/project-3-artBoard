@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "watch": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
